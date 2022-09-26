@@ -27,7 +27,7 @@ class CSDNClassRequest():
             'origin': 'https://download.csdn.net',
             'referer': 'https://download.csdn.net/learn/37437/581622?spm=1003.2001.3001.4157',
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44',
-            'cookie':'uuid_tt_dd=10_17879837660-1655648917835-876561; 
+            'cookie':''; 
             'X-Ca-Signature-Headers': 'x-ca-key,x-ca-nonce',
            'X-Ca-Signature': '',
            'X-Ca-Nonce': '',
@@ -70,7 +70,7 @@ class CSDNClassRequest():
 
         return result
 
-session = CSDNClassRequest('203866374', 'Et9j9OntJ0zNRQvFxZoL4N9Y2uPDsoe4')
+session = CSDNClassRequest('20366374', '0zNRQvFxZoL4N9Y2uPDsoe4')
 
 class CSDNCourseDownloader:
     global session
