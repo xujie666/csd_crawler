@@ -7,7 +7,7 @@ from urllib.parse import urlparse
 import json
 import m3u8
 from Crypto.Cipher import AES
-
+# product by shenb
 import os
 BLOCK_SIZE = 16  # Bytes
 pad = lambda s: s + (BLOCK_SIZE - len(s) % BLOCK_SIZE) * \
